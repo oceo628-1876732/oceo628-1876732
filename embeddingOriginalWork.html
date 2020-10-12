@@ -35,17 +35,23 @@
     </div>
 
     <div class="level_2">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/3n-1T2IywgQ?start=180"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-      </iframe>
-      <video width="320" height="240" controls>
-        <source src="https://www.youtube.com/embed/3n-1T2IywgQ" type="video/webm">
-        <!-- <source src="movie.ogg" type="video/ogg"> -->
-      </video>
+      <h1>This is level 2</h1>
+      <div class="youtube_div_2">
+        <h3>This is a youtube video that starts from 3 min</h3>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/3n-1T2IywgQ?start=180"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+      </div>
+      <div class="video_div">
+        <h3>This is a video tag</h3>
+        <video width="640" height="360" id="player1" preload="none">
+            <source type="video/youtube" src="https://www.youtube.com/embed/3n-1T2IywgQ?start=180"/>
+        </video>
+      </div>
     </div>
   </body>
 </html>
