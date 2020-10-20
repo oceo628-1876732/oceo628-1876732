@@ -1,0 +1,12 @@
+.float_class {
+  float: right;
+  /* background-color: black; */
+}
+
+.round_corner {
+border-radius: 25px;
+background-color: blue;
+padding: 20px;
+width: 200px;
+height: 150px;
+}
